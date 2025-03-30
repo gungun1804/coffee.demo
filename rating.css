@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: box-border;
+    color: white;
+}
+body{
+    
+    background-image: url('coffee1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height:100vh;
+}
+
+.rating{
+    height: 500px;
+    width:600px;
+    border:2px solid white;
+    background-color: rgba(0, 0, 0, 0.308);
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 20px;
+    
+}
+h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.rat_star{
+    height: 50px;
+    width: 60%;
+    border:2px solid transparent;
+    background-color: rgba(245, 245, 245, 0.573);
+    font-size: 30px;
+    color: gold;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    left:90px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+p{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   position: relative;
+   top:60px;
+   font-size: 30px;
+   text-align: center;
+}
+.rat_bar{
+   display: flex;
+   align-items: center;
+   margin: 10px 0;
+   font-size: 20px;
+   position: relative;
+   top:50px;
+}
+.rat_bar span{
+    flex:1;
+   
+    left:20px;
+    font-weight: bolder;
+    
+}
+.bar{
+    flex:4;
+    height:15px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.fill{
+    height:100%;
+    background: gold;
+}
+.footer{
+    height:50px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+}
